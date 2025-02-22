@@ -1,2 +1,8 @@
 # attachment_emo_clf
 This is the code used to train the emotion-based attachment classifier described in the paper [**Emotion Recognition for Multimodal Recognition of Attachment in School-Age Children**](https://dl.acm.org/doi/10.1145/3678957.3685747).
+
+There are 4 files used to train the attachment classifiers that are based on audio, text, multimodal combination 1 (MC1) and multimodal combination 2 (MC2).
+
+There are also 2 files used to extract emotions from both audio and text. These files extract embeddings representing emotions from both modalities and store them in separate files. These files are then used as input to the attachment classifiers.
+
+The "Attachment_NN_Audio_Emo_Cleaned.ipynb" file has additional comments to explain the code.
