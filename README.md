@@ -5,6 +5,8 @@ There are 4 files used to train the attachment classifiers that are based on aud
 
 There are also 2 files used to extract emotions from both audio and text. These files extract embeddings representing emotions from both modalities and store them in separate files. These files are then used as input to the attachment classifiers.
 
-Two emotion classifies were used, one for [text](https://huggingface.co/bhadresh-savani/bert-base-uncased-emotion) and the other for [audio](https://huggingface.co/AreejB/wav2vec2-xlsr-english-speech-emotion-recognition).
+Two emotion classifiers were used, one for [text](https://huggingface.co/bhadresh-savani/bert-base-uncased-emotion) and the other for [audio](https://huggingface.co/AreejB/wav2vec2-xlsr-english-speech-emotion-recognition).
 
 The "Attachment_NN_Audio_Emo_Cleaned.ipynb" file has additional comments to explain the code.
+
+The trained model weights have been uploaded. As each experiment was repeated 10 times, there are 10 versions available for each model: Audio-based, Text-based, MC1, and MC2. Due to size limitations, some files have been divided into multiple parts.
