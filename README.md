@@ -3,7 +3,7 @@ This is the code used to train the emotion-based attachment classifier described
 
 There are 4 files used to train the attachment classifiers that are based on audio, text, multimodal combination 1 (MC1) and multimodal combination 2 (MC2).
 
-There are also 2 files used to extract emotions from both audio and text. These files extract embeddings representing emotions from both modalities and store them in separate files. These files are then used as input to the attachment classifiers.
+There are also 2 files used to extract emotions from both audio and text: **Attachment Emotion Cleaned Audio Extractor** and **Attachment Emotion Cleaned Text Extractor**. These files extract embeddings representing emotions from both modalities and store them in separate files. These files are then used as input to the attachment classifiers.
 
 Two emotion classifiers were used, one for [text](https://huggingface.co/bhadresh-savani/bert-base-uncased-emotion) and the other for [audio](https://huggingface.co/AreejB/wav2vec2-xlsr-english-speech-emotion-recognition).
 
